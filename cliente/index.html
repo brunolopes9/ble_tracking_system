@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Scanear Tags Bluetooth</title>
+  <style>
+    .container {
+      display: flex;
+    }
+    .left-column {
+      flex: 1;
+      padding: 10px;
+    }
+    .right-column {
+      flex: 1;
+      padding: 10px;
+      border-left: 2px solid #000;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left-column">
+      <br>
+      <a href="https://www.huf-group.com/en/news/magazine/huf-portuguesa-automotive-supplier-in-tondela-portugal">
+        <img src="huf.png" width="200" alt="BleuIO get device distance">
+      </a>
+      <h1>Scan Bluetooth Beacons</h1>
+      <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+
+      <br>
+      <div>
+        <label for="productionLine">What's Your Production Line?</label>
+        <input type="text" id="productionLine" class="form-control">
+      </div>
+      <div>
+        <label for="machineId">What's your machine ID ? </label>
+        <input type="text" id="machineId" class="form-control">
+      </div>
+      <button id="submitInfo" class="btn btn-primary">Send</button>
+      <p id="userInputs" style="color: red;"></p>
+      <p id="brokerStatus" style="color: red;"></p>
+      <p id="validationResult" style="color: red;"></p>
+      <p id="receivedMessage" style="color: red;"></p>
+      <br>
+
+
+
+
+
+      <button id="connect" class="btn btn-success">Connect Bluetooth Dongle</button>
+      <button id="scan" class="btn btn-warning">Scan for Beacons</button>
+      &nbsp; &nbsp; <span id="scanning" class="d-none"> scanning ...</span>
+      <br><br>
+      <div class="mb-3">
+        <label for="intervalInput" class="form-label">Scan Interval (Seconds):</label>
+        <input type="number" class="form-control" id="intervalInput" value="1">
+        <div class="mb-3">
+          <label for="averageInterval">Number of samples to average</label>
+          <input type="number" id="averageInterval" class="form-control" value="10">
+        </div>
+        <label for="averageType">Moving Average Type:</label>
+        <select id="averageType" name="averageType">
+          <option value="simple">Simple Moving Average</option>
+          <option value="weighted">Weighted Moving Average</option>
+        </select>
+      </div>
+
+
+
+      <button id="startScan" class="btn btn-primary">Start Scan</button>
+      <p></p>
+      <strong><span id="connectionStatus" class="text-muted">Dongle status: Disconnected</span></strong>
+      <br><br><br>
+      <div id="deviceList"></div>
+      <div id="tablesContainer"></div>
+    </div>
+    <div class="right-column">
+      <div id="averagesContainer">
+      </div>
+    </div>
+  </div>
+  <br><br>
+  <script type="module" src="pub.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

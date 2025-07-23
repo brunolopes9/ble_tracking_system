@@ -1,0 +1,18 @@
+17
+82C:\Users\Utilizador\Downloads\Ver_Macs\ble_distance_measure-master\dist\index.html133645619609906668 0
+79C:\Users\Utilizador\Downloads\Ver_Macs\ble_distance_measure-master\node_modules133645618721450538 1
+89C:\Users\Utilizador\Downloads\Ver_Macs\ble_distance_measure-master\dist\index.8cfc62b9.js133645619610226723 0
+84C:\Users\Utilizador\Downloads\Ver_Macs\ble_distance_measure-master\package-lock.json133645618718237717 0
+99C:\Users\Utilizador\Downloads\Ver_Macs\ble_distance_measure-master\node_modules\bleuio\package.json133645618722357848 0
+93C:\Users\Utilizador\Downloads\Ver_Macs\ble_distance_measure-master\dist\index.8cfc62b9.js.map133645619610226723 0
+71C:\Users\Utilizador\Downloads\Ver_Macs\ble_distance_measure-master\dist133645619610226723 1
+77C:\Users\Utilizador\Downloads\Ver_Macs\ble_distance_measure-master\index.html133645619353522781 0
+79C:\Users\Utilizador\Downloads\Ver_Macs\ble_distance_measure-master\package.json133645618718551494 0
+76C:\Users\Utilizador\Downloads\Ver_Macs\ble_distance_measure-master\README.md133645618717546641 0
+76C:\Users\Utilizador\Downloads\Ver_Macs\ble_distance_measure-master\script.js133645618718894646 0
+98C:\Users\Utilizador\Downloads\Ver_Macs\ble_distance_measure-master\node_modules\.package-lock.json133645618721367117 0
+86C:\Users\Utilizador\Downloads\Ver_Macs\ble_distance_measure-master\node_modules\bleuio133645618722108117 1
+95C:\Users\Utilizador\Downloads\Ver_Macs\ble_distance_measure-master\node_modules\bleuio\index.js133645618722028014 0
+96C:\Users\Utilizador\Downloads\Ver_Macs\ble_distance_measure-master\node_modules\bleuio\README.md133645618721698946 0
+90C:\Users\Utilizador\Downloads\Ver_Macs\ble_distance_measure-master\dist\script.75da7f30.js133645618720792344 0
+94C:\Users\Utilizador\Downloads\Ver_Macs\ble_distance_measure-master\dist\script.75da7f30.js.map133645618721121801 0

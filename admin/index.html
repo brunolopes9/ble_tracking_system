@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Production Lines Dashboard</title>
+    <link rel="stylesheet" href="public/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Production Lines Dashboard</h1>
+    <div id="tablesContainer"></div>
+    <div id="chartsContainer">
+        <canvas id="workerCountChart" width="400" height="300"></canvas>
+        <canvas id="machineCountChart" width="400" height="300"></canvas>
+    </div>
+    
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="public/script.js"></script>
+</body>
+</html>

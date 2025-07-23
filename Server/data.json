@@ -1,0 +1,102 @@
+{
+    "productionLines": [
+        {
+            "name": "BMW",
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "New Machine",
+                    "dongleId": "NEW_DONGLE_ID",
+                    "dongleMac": "NEW_DONGLE_MAC",
+                    "workers": [
+                        {
+                            "id": 1,
+                            "name": "Jo\u00e3o",
+                            "beaconId": "NEW_BEACON_ID",
+                            "beaconMac": "[0]D0:76:50:80:01:DF"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "TESTE",
+                    "dongleId": "TESTE",
+                    "dongleMac": "TESTE",
+                    "workers": [
+                        {
+                            "id": 1,
+                            "name": "New Worker",
+                            "beaconId": "NEW_BEACON_ID",
+                            "beaconMac": "NEW_BEACON_MAC"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "ASD",
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "New Machine",
+                    "dongleId": "NEW_DONGLE_ID",
+                    "dongleMac": "NEW_DONGLE_MAC",
+                    "workers": [
+                        {
+                            "id": 1,
+                            "name": "New Worker",
+                            "beaconId": "NEW_BEACON_ID",
+                            "beaconMac": "NEW_BEACON_MAC"
+                        },
+                        {
+                            "id": 2,
+                            "name": "New Worker",
+                            "beaconId": "NEW_BEACON_ID",
+                            "beaconMac": "NEW_BEACON_MAC"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "New Machine",
+                    "dongleId": "NEW_DONGLE_ID",
+                    "dongleMac": "NEW_DONGLE_MAC",
+                    "workers": [
+                        {
+                            "id": 1,
+                            "name": "New Worker",
+                            "beaconId": "NEW_BEACON_ID",
+                            "beaconMac": "NEW_BEACON_MAC"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "New Machine",
+                    "dongleId": "NEW_DONGLE_ID",
+                    "dongleMac": "NEW_DONGLE_MAC",
+                    "workers": [
+                        {
+                            "id": 1,
+                            "name": "New Worker",
+                            "beaconId": "NEW_BEACON_ID",
+                            "beaconMac": "asd"
+                        },
+                        {
+                            "id": 2,
+                            "name": "New Worker",
+                            "beaconId": "NEW_BEACON_ID",
+                            "beaconMac": "NEW_BEACON_MAC"
+                        },
+                        {
+                            "id": 3,
+                            "name": "New Worker",
+                            "beaconId": "NEW_BEACON_ID",
+                            "beaconMac": "NEW_BEACON_MAC"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

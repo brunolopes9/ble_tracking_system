@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "bleuio": "^1.0.8",
+    "mqtt": "^5.7.0"
+  },
+  "devDependencies": {
+    "path-browserify": "^1.0.1",
+    "rimraf": "^5.0.7"
+  }
+}
